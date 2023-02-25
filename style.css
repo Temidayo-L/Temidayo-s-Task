@@ -31,10 +31,10 @@ p{
 /* Styling the body */
 body{
     background-color: hsl(212, 45%, 89%);
-    min-height: 950px;
-    display: grid;   
-     place-items: center;
+    place-items: center;
     margin: auto;
+    background-size: contain;
+    display: flex; justify-content: center;
 }
 
 img{
@@ -52,4 +52,9 @@ div{
    place-items: center;
    text-align: center;
    height: 48%;
+}
+
+html,
+body{
+    height: 100%;
 }
