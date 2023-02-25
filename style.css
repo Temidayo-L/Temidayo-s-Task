@@ -32,8 +32,8 @@ p{
 body{
     background-color: hsl(212, 45%, 89%);
     min-height: 950px;
-    display: grid;
-    place-items: center;
+    display: grid;   
+     place-items: center;
     margin: auto;
 }
 
