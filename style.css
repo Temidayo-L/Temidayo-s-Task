@@ -1,0 +1,55 @@
+
+
+/* Note: External font(Outfit) was linked to the body. */
+
+/* Styling the header */  
+h2{
+    font-family: outfit;
+    font-weight: 700;
+    font-display: swap;
+    src: url(./Outfit-Bold.woff2);
+    font: size 2opx;;
+    line-height: 22px;
+    width: 70%px;
+    color: hsl(218, 44%, 22%);
+    
+}
+
+/* Styling the paragraph */
+p{
+    font-family: outfit;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 15px;
+    src: url(./Outfit-Regular.woff2);
+    color: hsl(220, 15%, 55%);
+    line-height: 1.3;
+    margin: 25px;
+    margin-top: 5px;
+}
+
+/* Styling the body */
+body{
+    background-color: hsl(212, 45%, 89%);
+    min-height: 950px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+img{
+    border-radius: 10px;
+}
+
+/* Styling the div box */
+div{
+   box-sizing: border-box;
+   max-width: 300px;
+   background-color: white;
+   padding: 10px;
+   padding-top: 10px;
+   border-radius: 10px;
+   place-items: center;
+   text-align: center;
+   height: 48%;
+}
